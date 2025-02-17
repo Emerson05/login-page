@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+
+    background-image: url(../img/backgroundimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+
+    
+}
+
+section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px;
+    
+    
+    
+
+}
+
+.container-login{
+    display: flex;
+    border-radius: 10px;
+    height: 700px;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.8); 
+    
+
+
+}
+
+.login-form{
+
+    padding-top: 10%;
+    padding-left: 15%;
+    
+   
+
+}
+
+
+
+.login-form input{
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 4px;;
+    width: 80%;
+    background: #333;
+}
+
+.login-form input:hover{
+    border: solid 2px white;
+}
+
+
+.login-form h1{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+    
+}
+
+.btn-entrar{
+
+    background: #e60910;
+    color: white;
+    padding: 12px 35px; 
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.btn-entrar:hover{
+
+    background: #c4020c;
+
+    
+   
+}
+
+h2{
+    color: white;
+    margin-left: 35%;
+}
+
+
+.btn-codigo{
+
+    background: #39383a;
+    color: white;
+    padding: 12px 35px; 
+
+    width: 80%;
+    border-radius: 5px;
+   
+}
+
+.btn-codigo:hover{
+
+    background: #525053;
+    cursor: pointer;
+    
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+#lembrar{
+ 
+    display: inline-block;
+    margin-top: 30px;
+    
+    
+}
+
+span{
+
+  
+    color: white;
+    margin-left: 25%;
+    display: inline-block;
+   
+}
+
+
+p{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.form{
+    justify-content: center;
+    align-items: center;
+}
+
+b{
+    cursor: pointer;
+}
